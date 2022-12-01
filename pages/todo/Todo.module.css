@@ -1,0 +1,110 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #0E1525;
+    
+}
+.todoMainContainer{
+    width: 50%;
+    padding: 20px;
+    min-height: 40vh;
+    border: 5px solid #485170;
+    border-radius: 5px 15px 5px 15px;
+    background-color: #1C2333;
+}
+.MainForm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inputText{
+    width: 80%;
+}
+.inputBtn{
+    width: 15%;
+    height: fit-content;
+    padding: 10px;
+    margin-top: -15px;
+}
+.TodoMainList{
+    display: flex;
+
+    border: 2px solid #485170;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 15px 0px;
+}
+.TodoList{
+    width: 100%;
+}
+.TodoListBtns{
+    max-width: 50%;
+    min-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.TodoListBtns Button{
+    padding: 10px 25px;
+}
+.Spinner{
+    display: flex;
+    justify-content: space-evenly;;
+    height: 100px;
+    align-items: center;
+}
+.Card, .input{
+    border: 1px solid #485170;
+}
+.CompleteHeading{
+    text-align: center;
+    color: #fff;
+}
+.AddSometodoText{
+    color: #fff;
+}
+.Spin{
+    color: #31D2F2;
+}
+.noCompleteTodoText{
+    color: #fff;
+}
+@media screen and (max-width: 1000px) {
+    .todoMainContainer{
+        width: 100%;
+        padding: 10px;
+        min-height: 40vh;
+        border: 2px solid #485170;
+    }
+    .inputText{
+        width: 65%;
+    }
+    .inputBtn{
+        width: 30%;
+        height: fit-content;
+        padding: 10px;
+        margin-top: 3px;
+    }
+    .textMuted{
+        display: none;
+    }
+    .TodoListBtns{
+        max-width: 100%;
+        min-height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .TodoListBtns Button{
+        padding: 8px 15px;
+    }
+    .Spinner{
+        display: flex;
+        justify-content: space-evenly;;
+        height: 100px;
+        align-items: center;
+    }
+    .Spinner h4{ display: none; }
+}
