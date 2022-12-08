@@ -3,14 +3,15 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #0E1525;
+    /* background-color: #0E1525; */
+    background-image: linear-gradient( #08183A, #22252E, #0C0C0C);
     
 }
 .todoMainContainer{
     width: 50%;
     padding: 20px;
     min-height: 40vh;
-    border: 5px solid #485170;
+    border: 5px solid #D6C05F;
     border-radius: 5px 15px 5px 15px;
     background-color: #1C2333;
 }
@@ -25,13 +26,15 @@
 .inputBtn{
     width: 15%;
     height: fit-content;
-    padding: 10px;
-    margin-top: -15px;
+    padding: 15px;
+    margin-top: -25px;
+    color: gold;
+    font-size: 18px;
+    background-image: linear-gradient(to bottom right, #06828C, #394C4D);
 }
 .TodoMainList{
     display: flex;
-
-    border: 2px solid #485170;
+    border: 2px solid #957D2D;
     padding: 10px;
     border-radius: 10px;
     margin: 15px 0px;
@@ -55,8 +58,30 @@
     height: 100px;
     align-items: center;
 }
-.Card, .input{
+.input{
+    border: 1px solid #957D2D;
+    padding: 15px;
+    color: #ffffff;
+    background-image: linear-gradient(to bottom right, #0E2F30, #154C55);
+}
+.input:focus{
+    color: #ffffff;
+    font-size: 17px;
+}
+.Card{
     border: 1px solid #485170;
+    /* background-color:darkslateblue; */
+    background-image: linear-gradient(to bottom right, #1C2E3C , #073B5F);
+    color: #ffffff;
+    font-size: 20px;
+}
+.cardBtns{
+    color: gold;
+    font-size: 18px;
+    background-image: linear-gradient(to bottom right, #06828C, #394C4D);
+}
+.CardComplete{
+    background-image: linear-gradient(to bottom right, #032B2D, #0C554E );
 }
 .CompleteHeading{
     text-align: center;
@@ -76,7 +101,8 @@
         width: 100%;
         padding: 10px;
         min-height: 40vh;
-        border: 2px solid #485170;
+        border: 2px solid #D6C05F;
+        border-radius: 0%;
     }
     .inputText{
         width: 65%;
@@ -84,8 +110,8 @@
     .inputBtn{
         width: 30%;
         height: fit-content;
-        padding: 10px;
-        margin-top: 3px;
+        padding: 15px;
+        margin-top: -2px;
     }
     .textMuted{
         display: none;
